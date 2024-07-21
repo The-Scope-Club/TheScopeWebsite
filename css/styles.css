@@ -1,74 +1,36 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/* Sets background color of entire page. The !important is used to override Bootstrap's settings */
+body {
+    background-color: #387a68 !important;
+}
+
+/* Only apply underline effect for navigation bar tabs for screens 768px and above */
+/* Any smaller screens will see the hamburger menu instead of all the tabs laid out */
+@media (min-width: 768px) { 
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background: #ffffff;
+        transition: .3s;
+    }
+    
+    .nav-link:hover::before {
+        width: 100%;
+    }
+    
+    .nav-link:hover {
+        transition: .3s;
+        color: #ffffff !important;
+    }
+    
+    .nav-link {
+        transition: .3s;
+        position: relative;
+    }
  }
 
-#body {
-    width: 100%;
-    height: 900px;
-    background-color: #469882;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-top: 120px;
-    text-align: center;
-    font-size: 50px;
-    color: #ffffff;
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 20px;
-  background: #68dfbf;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
-
-.leftside {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.title {
-  font-size: 32px;
-  color: white;
-  font-weight: 800;
-  margin-left: 50px;
-}
-
-.navbar a {
-  font-size: 18px;
-  color: white;
-  font-weight: 500;
-  text-decoration: none;
-  margin: 15px;
-  position: relative;
-  transition: .3s;
-}
-
-.navbar a::before {
-  content: "";
-  position: absolute;
-  top: 110%;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: #ffffff;
-  transition: .3s;
-}
-
-.navbar a:hover::before {
-  width: 100%;
-}
-
-.navbar a:hover {
-  font-size: 20px;
-  transition: .3s;
-}
