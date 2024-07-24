@@ -1,0 +1,28 @@
+[
+    {
+      "category": "General",
+      "question": "What is SCOPE?",
+      "answer": "SCOPE is a Purdue college club focused on engineering projects. Our members come from various backgrounds including coding, engineering, leadership, and electronics."
+    },
+    {
+      "category": "General",
+      "question": "How can I join SCOPE?",
+      "answer": "To join SCOPE, you can connect with us on our Discord server where we coordinate our projects and communications."
+    },
+    {
+      "category": "Projects",
+      "question": "What kind of projects does SCOPE work on?",
+      "answer": "SCOPE works on a variety of complex projects, ranging from electronics and coding to mechanical design and leadership initiatives."
+    },
+    {
+      "category": "Membership",
+      "question": "Who can join SCOPE?",
+      "answer": "Any Purdue student with an interest in engineering and a willingness to collaborate on exciting projects can join SCOPE."
+    },
+    {
+      "category": "Membership",
+      "question": "Do I need prior experience to join SCOPE?",
+      "answer": "No prior experience is necessary. We welcome students of all skill levels and provide opportunities to learn and grow."
+    }
+  ]
+  

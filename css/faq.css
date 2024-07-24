@@ -1,0 +1,99 @@
+.text-gray {
+    color: #333333; /* Dark Gray */
+}
+
+.card {
+    background-color: #333333; /* Dark Gray */
+    border: 1px solid #ffffff; /* White */
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.card-header {
+    background-color: #333333; /* Dark Gray */
+    border-bottom: 1px solid #ffffff; /* White */
+    padding: 0; /* Remove default padding */
+}
+
+.card-header .btn-link {
+    color: #ffffff; /* White */
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem; /* Add padding for better click area */
+    outline: none; /* Remove blue outline */
+    background-color: #333333; /* Match background color */
+    border: none; /* Remove border */
+    text-align: left; /* Align text to the left */
+}
+
+.card-header .btn-link:focus {
+    box-shadow: none; /* Remove blue outline */
+}
+
+.card-header .btn-link:hover {
+    background-color: #006666; /* Darker teal on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.card-header .btn-link .arrow {
+    transition: transform 0.3s ease-in-out;
+    color: #66ffcc; /* Teal arrow */
+}
+
+.card-header .btn-link.collapsed .arrow {
+    transform: rotate(0deg);
+}
+
+.card-header .btn-link:not(.collapsed) .arrow {
+    transform: rotate(90deg);
+}
+
+.card-body {
+    background-color: #515151; /* White */
+    color: #ffffff; /* Dark Gray */
+}
+
+h1.title {
+    color: #ccffcc; /* Light Green */
+    font-size: 2rem; /* Smaller title */
+    font-weight: 700;
+}
+
+.arrow {
+    font-size: 1rem; /* Smaller arrow */
+}
+
+.category-title {
+    color: #ccffcc; /* Light Green */
+    font-size: 1.2rem; /* Smaller category title */
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn {
+    transition: background-color 0.3s, color 0.3s;
+    outline: none; /* Remove blue outline */
+}
+
+.btn:focus {
+    box-shadow: none; /* Remove blue outline */
+}
+
+.btn:hover {
+    background-color: #006666; /* Darker teal on hover */
+    color: #ffffff; /* White text on hover */
+}
+
+.card:not(:last-child) {
+    border-bottom: 0;
+}
+
+.all-button {
+    background-color: #2f313d;
+    color: #ffffff;
+}
