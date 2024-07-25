@@ -1,0 +1,67 @@
+body {
+    background-color: #387a68 !important;
+}
+
+.content {
+    height: 90vh; 
+    position: relative;
+    color: #fff;
+}
+
+.display-1 {
+    font-size: 5rem; 
+    color: #fff; 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    margin: 0; 
+    position: absolute; 
+    top: 5rem;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.display-2 {
+    font-size: 4rem;
+    margin-top: -5rem;
+}
+
+.lead {
+    margin-top: 1rem; 
+    font-size: 1.25rem; 
+    max-width: 800px;
+}
+
+.btn-primary {
+    background-color: #3aafa9;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #2b7a78;
+}
+
+.bi {
+    font-size: 2rem;
+    color: white;
+}
+
+.bi:hover {
+    color: #3aafa9;
+}
+
+.social-icons {
+    margin-top: 2rem; 
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(255, 255, 255, 0.5); 
+    transition: color 0.3s ease, transform 0.3s ease; 
+    margin: 0 8px; 
+}
+
+.social-icons a:hover {
+    color: white; 
+    transform: scale(1.1); 
+}
